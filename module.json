@@ -1,0 +1,45 @@
+{
+  "id": "dc20-exploring-gear-expansion",
+  "title": "DC20 Exploring Gear Expansion",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>This is an unofficial DC20 expansion module that add exploration gear to dc20 stuff like torches, rope, exploring packs, sleeping bags and some extra stuff.</p>",
+  "authors": [
+    {
+      "name": "OnyxStudios",
+      "email": "Onyx1602yt@gmail.com",
+      "url": "https://patreon.com/OnyxStudios?",
+      "discord": "Onyx1602#8924",
+      "flags": {}
+    }
+  ],
+  "url": "https://patreon.com/OnyxStudios",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "exploration-gear",
+      "label": "Exploration Gear",
+      "path": "packs/exploration-gear",
+      "type": "Item",
+      "system": "dc20rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dc20rpg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
